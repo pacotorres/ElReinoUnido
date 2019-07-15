@@ -29,3 +29,16 @@ ul li {
 ul a {
     text-decoration: none;
 }
+
+main {
+    width: auto;
+    height: 80vh;
+}
+
+footer {
+    background-color: black;
+    width: auto;
+    height: 9vh;
+    text-align: center;
+    margin: 0 auto;
+}
