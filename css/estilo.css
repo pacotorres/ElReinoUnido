@@ -1,13 +1,44 @@
-body{
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
     background: #ff7b13;
     color: white;
     font-family: "Comic Sans MS";
 }
 
-h1{
-    color: black;
+header {
+    background-color: black;
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-p{
-    font-size: 25px;
+ul {
+    background-color: red;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+main {
+    width: auto;
+    height: 80vh;
+}
+
+footer {
+    background-color: black;
+    width: auto;
+    height: 9vh;
+    text-align: center;
+    margin: 0 auto;
 }
